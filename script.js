@@ -122,7 +122,7 @@ function time(){
             }
         
             document.getElementById('timer').innerHTML = displayhour + " : " + displayminutes + " : " + displayseconds;
-    }, 1);
+    }, 1000);
 }
 function reset(){
     clearInterval(start);
